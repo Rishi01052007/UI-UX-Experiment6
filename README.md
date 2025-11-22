@@ -1,190 +1,34 @@
 # UI-UX-Experiment6
+To disign ideation, user stories, scenarios, flow diagrams, and information architecture, with tools like Figma for visualization and design.
 
 ## Aim:
-
-To practice solution ideation, user story creation, scenario development, flow mapping, and information architecture design to improve user experience through structured UX design activities.
+To design and prototype a user-friendly solution for booking appointments in a hospital app using UX methodologies such as ideation, user stories, scenarios, flow diagrams, and information architecture, with tools like Figma for visualization and design.
 
 ## Algorithm:
+Step 1: Problem Definition Identify a known UX problem: e.g., “Booking a doctor’s appointment is confusing for some users.”
 
-Solution Ideation: Use a known UX problem (e.g., booking an appointment in a hospital app). Task: Conduct crazy 8s or brainwriting ideation exercise. Generate multiple low-fidelity ideas.
+Step 2: Solution Ideation (Crazy 8s / Brainwriting) Open Figma or FigJam Create a frame divided into 8 boxes (2x4 grid) Set a timer for 8 minutes Sketch 8 different ideas (1 per box) for solving the problem Use basic shapes and text (low-fidelity wireframes)
 
-Creating User Stories: Use personas and their goals to write user stories. Task: Write at least 5 user stories using this format: As a [user], I want to [goal], so that [benefit].
+Step 3: Create User Stories Define at least 3–5 personas (elderly, working professionals, students, doctors) For each, write user stories using: As a [user], I want to [goal], so that [benefit]. Use sticky notes or frames in Figma to display each story
 
-Creating Scenarios: Select a user story. Task: Create a narrative scenario that describes the user in context. Include emotional states, tasks, and environment.
+Step 4: Build Narrative Scenarios Pick a user story
+```
+    Describe:
+    The user
+    Their environment
+    Their emotional state
+    Tasks they’re trying to complete
+    Represent using sticky notes, illustrations, or storyboards in Figma
+```
+Step 5: Create User Flow / Task Flow Diagram Choose a task (e.g., “Book appointment”) Use standard flowchart shapes: Start/End (Oval) Process/Action (Rectangle) Decision (Diamond) Connect the steps using arrows Design this using shapes and connectors in Figma
 
-Flow Diagrams / Flow Mapping: Choose a task (e.g., ordering food via app). Task: Draw a task flow diagram or user flow. Use standard symbols (start, decision, action, etc.).
-
-Information Architecture (IA): Take an example website or app (e.g., university site, news portal). Task: Perform card sorting (open or closed). Create a site map showing categorized structure.
-
+Step 6: Build Information Architecture (IA) Choose an app/site (e.g., Saveetha University) Perform open or closed card sorting Categorize and list out all sections (Home, Courses, Admissions, About Us, etc.) Create a site map using hierarchy boxes and lines in Figma
 
 ## Output:
-1. Solution Ideation
-Known UX Problem:
-
-Patients find it confusing and time-consuming to book an appointment with doctors using hospital apps. They face issues like unclear doctor availability, long loading times, and complicated booking steps.
-
-Crazy 8’s Ideation Exercise (8 Quick Ideas):
-```
-Idea	Description
-1	One-click doctor booking button on the home screen.
-2	Voice search option to find doctors by specialization (e.g., “Cardiologist near me”).
-3	Smart calendar showing available slots in real time.
-4	Filter doctors by experience, fees, and ratings.
-5	Chatbot assistant to help users navigate or book quickly.
-6	Notification reminder for upcoming appointments.
-7	Option to reschedule or cancel appointments easily.
-8	Integration with health insurance for instant verification.
-```
-
-Low-Fidelity Idea Sketch (Concept Summary):
-
-A simple home screen with:
-
-“Book Appointment” button
-
-Search bar (“Find Doctor or Specialty”)
-
-Calendar with available time slots
-
-Confirmation pop-up with “Add to Reminder” option
-
-2. Creating User Stories
-
-Based on personas (patients and doctors):
-
-As a patient, I want to search for doctors by specialization, so that I can find the right expert quickly.
-
-As a patient, I want to view available appointment slots, so that I can book at a convenient time.
-
-As a patient, I want to get reminders for my upcoming appointments, so that I don’t miss them.
-
-As a doctor, I want to update my availability schedule, so that patients can see real-time slots.
-
-As a patient, I want to reschedule my appointment easily, so that I can adjust in case of emergencies.
-
-3. Creating Scenarios
-Selected User Story:
-
-As a patient, I want to view available appointment slots so that I can book at a convenient time.
-
-Scenario Narrative:
-
-User: Priya Sharma, a 21-year-old college student, feels sudden tooth pain and wants to book a dentist appointment.
-
-Context:
-She’s in her college library using her phone during a short break. She opens the hospital app to find a nearby dentist.
-
-Tasks & Steps:
-
-Opens the app → clicks “Book Appointment”
-
-Types “Dentist” in the search bar
-
-Views a list of available doctors with ratings and fees
-
-Selects “Dr. Meena Rao” and checks the calendar
-
-Picks an available slot for 4:00 PM the next day
-
-Confirms the appointment
-
-Emotional State:
-
-Before booking: Worried and in slight pain
-
-During booking: Relieved that the app is easy to use
-
-After booking: Calm and satisfied after receiving confirmation and reminder
-
-4. Flow Diagram / Flow Mapping
-Task: Booking a doctor appointment via hospital app
-
-Flow Diagram (Text Description):
-```
-[Start]
-
-   ↓
-[Open App]
-
-   ↓
-[Login / Sign Up]
-
-   ↓
-[Search for Doctor]
-
-   ↓
-[Select Specialization]
-
-     ↓
-[List of Doctors]
-
-     ↓
-[Choose Doctor → View Profile]
-
-
-     ↓
-[Check Available Slots]
-   ↓
-[Select Date & Time]
-   ↓
-[Confirm Appointment]
-   ↓
-[Payment (Optional)]
-   ↓
-[Receive Confirmation & Reminder]
-   ↓
-[End]
-
-```
-Decision Points:
-
-If doctor unavailable → choose another doctor
-
-If slot full → pick next available date
-
-5. Information Architecture (IA)
-Example App: Hospital Appointment Booking App
-
-Card Sorting:
-(Closed card sorting — categories defined by the design team)
-
-Category	Possible Cards/Items
-Home	Quick Book, Featured Doctors, Health Tips
-Doctors	Specializations, Ratings, Experience, Availability
-Appointments	Upcoming, Past, Reschedule, Cancel
-Payments	Bills, Insurance, Transaction History
-Profile	Personal Info, Medical History, Settings
-Site Map (Hierarchical Structure):
-```
-Home
- ├── Quick Book
- ├── Featured Doctors
- └── Health Articles
-
-Doctors
- ├── Search by Specialization
- ├── Top Rated
- └── Nearby Doctors
-
-Appointments
- ├── Upcoming Appointments
- ├── Past Appointments
- ├── Reschedule
- └── Cancel
-
-Payments
- ├── Bills & Receipts
- ├── Insurance Info
- └── Payment History
-
-Profile
- ├── Personal Details
- ├── Medical Records
- └── Settings
-```
+[exp6.pdf](https://github.com/user-attachments/files/23686819/exp6.pdf)
 
 
 
 ## Result:
 
-To practice solution ideation, user story creation, scenario development, flow mapping, and information architecture design to improve user experience through structured UX design activities is done successfully.
+Thus the given task is successfully created.
